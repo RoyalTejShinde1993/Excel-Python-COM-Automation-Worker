@@ -1,0 +1,3 @@
+# Windows-only: COM automation requires pywin32, which has no Linux/macOS build.
+# On Linux/macOS this line is simply skipped by pip.
+pywin32; platform_system=="Windows"
